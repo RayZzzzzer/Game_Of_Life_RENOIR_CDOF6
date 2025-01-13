@@ -16,7 +16,7 @@ def display_grid(grid):
         # Use "#" for alive cells and "-" for dead cells to make it visually appealing
         print("".join("#" if cell else "-" for cell in line))
     print("\n")
-
+# Nice function
 # Function to count how many neighbors are alive
 def count_neighbor(grid, i, j):
     nei = 0
