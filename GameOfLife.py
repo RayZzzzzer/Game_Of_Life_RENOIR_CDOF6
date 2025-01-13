@@ -40,13 +40,12 @@ def new_gen(grid):
                 new_grid[i][j] = 1 if nei == 3 else 0
     return new_grid
 
-# Function to run the simulation
-def game_of_life():
+# Start Simulation
+def Game_of_Life():
     grid = init_grid()
     while True:
         display_grid(grid)
         grid = new_gen(grid)
-        time.sleep(0.5)  # Pause for half a second between generations
+        time.sleep(0.5)
 
-# Start the simulation
-game_of_life()
+Game_of_Life()
