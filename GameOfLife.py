@@ -1,7 +1,7 @@
 import random
 import time
 import os
-
+// improving project
 # Dimensions of the grid
 N = 30
 
